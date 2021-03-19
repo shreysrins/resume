@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      %Change to \textit for italicized subheadings
+      \text{\small#3} & \text{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Shreyas V. Srinivasan} & Email: \href{mailto:shreyass@mit.edu}{shreyass@mit.edu}\\
+  Website: \href{http://shreyass.mit.edu}{shreyass.mit.edu} & LinkedIn: \href{https://www.linkedin.com/in/svsrinivasan/}{in/svsrinivasan}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {MIT Sloan School of Management}{Cambridge, MA}
+      {MFin (Master of Finance), Financial Engineering}{2021 - 2022}
+    \resumeSubheading
+      {Massachusetts Institute of Technology (MIT)}{Cambridge, MA}
+      {SB, Mathematics with Computer Science (Minor: Finance); GPA: 4.7/5.0}{2018 - 2021}
+        \resumeItemListStart
+            \resumeItem{Activities \& Societies}
+            {MIT Pokerbots, MIT Consulting Group, Phi Kappa Theta Fraternity}
+            \resumeItem{Selected Coursework}
+            {15.457 Advanced Analytics of Finance (Grad), 6.265 Advanced Stochastic Processes (Grad),\qquad6.046 Algorithms, 18.100Q Real Analysis, 18.650 Statistics, 18.600 Probability, 6.036 Machine Learning, 18.03 ODEs}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Princeton University}{Princeton, NJ}
+      {Dual Enrollment, Mathematics; GPA: 3.7/4.0; Courses: Honors Linear Algebra, Number Theory}{2017 - 2018}
+    % \resumeSubheading
+    %   {West Windsor--Plainsboro High School South}{Princeton Jct., NJ}
+    %   {High School Diploma; GPA: 4.0/4.0; ACT: 36/36; National Merit Scholar}{2014 - 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------WORK EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {DRW}{Chicago, IL}
+      {Incoming Quantitative Trading Analyst Intern}{Jun - Aug 2021}
+    
+    \resumeSubheading
+      {Morgan Stanley}{New York, NY}
+      %Summer Analyst -- Equity Derivatives Trading \& Structuring
+      {Institutional Equity Summer Analyst}{Jun - Aug 2020}
+      \resumeItemListStart
+        \resumeItem{Projects}
+          {Implemented ETF trading strategy and binary classifier for dynamic option Gamma hedging in Python.}
+        \resumeItem{Shadowing}
+          {Index Derivatives, Single Name Options, ETFs, and Automated Market Making trading desks.}
+        \resumeItem{Skills}
+          {Derivatives pricing, option Greeks, option strategies, and quantitative risk management.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Seven Eight Capital}{New York, NY}
+      {Quantitative Developer Intern}{May - Aug 2019}
+      \resumeItemListStart
+        \resumeItem{Project}
+          {Built, studied, and evaluated multi-factor asset pricing models for US and European equities.}
+        \resumeItem{Skills}
+          {Python (Pandas), data science (regression analysis, model selection, outliers), and BARRA risk models.}
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Fish \& Richardson P.C.}{Boston, MA}
+      {Patent Prosecution Intern}{Jan - Mar 2019}
+      \resumeItemListStart
+        \resumeItem{Drafting}
+          {Patent applications, responses to US/foreign patent office rejections, and client IP portfolio analyses.}
+        \resumeItem{Skills}
+          {Technology analysis, product differentiation, science communication, and argument construction.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+
+%-----------WORK EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+  
+      \resumeSubheading
+      {MIT Sloan School of Management}{Cambridge, MA}
+      {Undergraduate Research Assistant -- Accounting Group}{May 2020 - Present}
+      \resumeItemListStart
+        \resumeItem{Project}
+          {Evaluating and comparing methodologies for calculating single name expected stock returns.}
+        \resumeItem{Skills}
+          {Quantitative modeling in R, big data practices, and numerical optimization techniques.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+      
+      
+%-----------LEADERSHIP EXPERIENCE-----------------
+\section{Extracurricular Experience}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {MIT Pokerbots}{Cambridge, MA}
+      {President (2019 - 2021), Sponsorship Director (2018 - 2019)}{Sep 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{President}
+          {Led team of seven members to successfully run four-week computer poker class and competition for 250 MIT undergrad/grad students. Managed operations, coordinated with MIT/EECS department, and developed 2021 game engine.}
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {MIT Consulting Group}{Cambridge, MA}
+      {Corporate Relations Director (2020), Secretary (2019)}{Sep 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Consultant}
+          {Produce strategy recommendations for companies ranging from startup to Fortune 500 in scale. Experience with conducting market research, identifying growth opportunities, and creating strategic partnerships.}
+      \resumeItemListEnd
+      
+    % \resumeSubheading
+    %   {Phi Kappa Theta Fraternity}{Boston, MA}
+    %   {Rush Chair (2020 - Present), Social Chair (2019)}{Sept 2018 - Present}
+    %   \resumeItemListStart
+    %     \resumeItem{Rush Chair}
+    %       {Responsible for recruiting new members, planning events, and overseeing budget of \$25,000.}
+    %   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------------
+\section{Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{MIT MFin Fellowship}
+        {Awarded in recognition of outstanding academic record, achievements and professional promise.}
+    \resumeSubItem{Young Naturalist Awards Research Competition}
+      {Individually top 6 nationwide for biology research.}
+    \resumeSubItem{Olympiads}
+      {2 time AIME qualifier, USACO Gold Division.}
+     \resumeSubItem{Tournament of Champions}
+      {Two time qualifier in Public Forum Debate (national high school championships).}
+    % \resumeSubItem{National Speech \& Debate Association}
+    %   {2\textsuperscript{nd} in NJ for Mock Trial during senior year of high school.}
+    % \resumeSubItem{New Jersey Governor's School in the Sciences Scholar}
+    %   {Summer research program for top 50 NJ rising high school seniors in the sciences. Conducted research in machine learning (document classification).}
+
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills \& Interests}
+ \resumeSubHeadingListStart
+   \item{
+   	Python, R, Java, MATLAB, Julia, Data Science, Public Speaking, Science Communication, Project Management
+   }
+  \item{
+    DJing, Poker, Basketball, Racquetball, Cricket, Debate, Public Policy, Bollywood Dance, Event Planning
+  }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
